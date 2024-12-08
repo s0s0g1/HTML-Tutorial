@@ -9,7 +9,27 @@
     id="username" 
     name="username" 
     placeholder="ユーザー名を入力してください"
-    
+    minlength="4"
+    maxlength="10"
+    required
+  >
+
+  <input type="submit" value="送信">
+</form>
+
+
+<h1>ユーザー登録</h1>
+
+<form action="/submit" method="POST">
+  <label for="username">ユーザー名:</label><br>
+  <input 
+    type="text" 
+    id="username" 
+    name="username" 
+    placeholder="ユーザー名を入力してください" 
+    minlength="4" 
+    maxlength="10" 
+    required
   >
 
   <input type="submit" value="送信">
